@@ -1,0 +1,16 @@
+.listSong-scroll {
+    overflow-y: scroll;
+}
+
+.listSong-scroll::-webkit-scrollbar {
+    width: 6px;
+   
+} 
+.listSong-scroll::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 4px;
+}
+.listSong-scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #75747488;
+}
