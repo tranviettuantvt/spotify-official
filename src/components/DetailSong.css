@@ -1,0 +1,17 @@
+.detail_image {
+    position: relative;
+
+}
+.image-under {
+    opacity: 0.2;
+}
+
+.image-above {
+    position: absolute;
+    opacity: 0.8;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+}

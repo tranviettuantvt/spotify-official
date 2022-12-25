@@ -14,3 +14,20 @@
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     background-color: #75747488;
 }
+
+thead tr {
+    position: sticky;
+    top: 0;
+    background: #171717;
+}
+
+thead tr::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: white;
+    height: 1px;
+    width: 100%;
+    top: 100%;
+    left: 0;
+}
